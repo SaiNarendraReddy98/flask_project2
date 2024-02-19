@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/c1.css') }}">
+    
+</head>
+<body>
+    <center>
+
+        <h1>This is my second Html page with render_template</h1>
+        <h2>Welcome...!</h2>
+        <h3>{{name}}</h3>
+
+
+        <img src="{{ url_for('static',filename='images/world.jpg') }}" alt=""> <br><br>
+
+
+        <button><h2><a href="{{ url_for('firstHtml')}}">Go to First Html</a></h2></button>
+
+
+    </center>
+</body>
+</html>

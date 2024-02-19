@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flask_project2</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/c2.css') }}">
+</head>
+<body>
+    <center>
+        <h1>This is my first Html page sending by using render_template</h1>
+
+        
+        <button><h2><a href="{{ url_for('secondHtml')}}">Go to Second Html</a></h2></button>
+
+    </center>
+</body>
+</html>
